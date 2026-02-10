@@ -111,3 +111,33 @@ a {
   background: var(--accent);
   color: var(--bg);
 }
+
+/* Blog Styles */
+.blog-list {
+  margin-top: 40px;
+}
+
+article {
+  margin-bottom: 60px;
+  border-left: 2px solid #222;
+  padding-left: 20px;
+}
+
+article h2 {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.date {
+  color: var(--accent);
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.nav a.active {
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
+}
